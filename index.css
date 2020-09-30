@@ -49,3 +49,15 @@ table {
 
 /*end of reset*/
 
+* {
+    background-color:white;
+}
+#button-1 {
+    background-color:#FF764E;
+}
+#button-2 {
+    background-color:#5ED3EB;
+}
+#button-3 {
+    background-color:#FFCD69;
+}
