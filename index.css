@@ -18,9 +18,9 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
-	font: inherit;
+	/*font: inherit;*/
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -49,15 +49,39 @@ table {
 
 /*end of reset*/
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 * {
-    background-color:white;
+    box-sizing: border-box;
+    font-family: 'Chelsea Market', cursive;
+    border:3px solid black;
+}
+header {
+    margin-left: 15%;
+    padding: 10px;
 }
 #button-1 {
     background-color:#FF764E;
+    padding: 10px;
 }
 #button-2 {
     background-color:#5ED3EB;
+    padding: 10px;
 }
 #button-3 {
     background-color:#FFCD69;
+    padding:10px;
+}
+
+section #first-div img{
+    width:20%;
+    height:20%;
+    display:inline-block;
+    border-radius: 70%;
+    margin-left:10%;
+}
+section #second-div {
+    display:inline-block;
+    width:20%;
+    height:20%;
 }
