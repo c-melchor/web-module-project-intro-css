@@ -50,15 +50,23 @@ table {
 /*end of reset*/
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 
 * {
     box-sizing: border-box;
-    font-family: 'Chelsea Market', cursive;
     border:3px solid black;
 }
-header {
+.header {
     margin-left: 15%;
     padding: 10px;
+    text-align: center;
+    margin: 0 10%;
+}
+
+.header button*{
+    margin:10%;/*is this right*/
+
 }
 #button-1 {
     background-color:#FF764E;
@@ -73,15 +81,32 @@ header {
     padding:10px;
 }
 
-section #first-div img{
-    width:20%;
-    height:20%;
-    display:inline-block;
-    border-radius: 70%;
-    margin-left:10%;
+#img1 {
+        width:20%;
+        height:20%;
+        display:inline-block;
+        border-radius: 70%;
+        margin-left:10%;
 }
-section #second-div {
+.header h1, p {
     display:inline-block;
-    width:20%;
-    height:20%;
+}
+.header h1 {
+    position:relative;
+    bottom: 150px;
+    font-family: 'Roboto Mono', monospace;
+}
+.header p {
+    position:relative; 
+}
+.pictures {
+display: block;
+text-align: center;
+}
+.pictures #img-2 {
+    width: 20%;
+}
+
+.pictures #img-3 {
+    width: 20%;
 }
