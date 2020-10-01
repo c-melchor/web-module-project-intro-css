@@ -152,7 +152,6 @@ body p{
  
 }
 .about {
-    display:block;
     height:30vh;
     margin-left: 4%;
     margin-right: 4%;
@@ -220,34 +219,37 @@ footer #footer {
 .button #button-4 {
     font-family: 'Roboto Mono', monospace;
     background-color:#FF764E;
-    padding: 10px;
+    padding: 15px;
     display:inline-block;
     border-radius:10px;
     margin: 8%;
     height:10%;
     width:10%;
     color:white;
+    border:none;
 }
 .button #button-5 {
     font-family: 'Roboto Mono', monospace;
     background-color:#5ED3EB;
-    padding: 10px;
+    padding: 15px;
     display:inline-block;
     border-radius:10px;
     margin: 8%;
     color:white;
     height:10%;
     width:10%;
+    border:none;
 }
 
 .button #button-6 {
     font-family: 'Roboto Mono', monospace;
     background-color:#FFCD69;
-    padding:10px;
+    padding:15px;
     display:inline-block;
     border-radius:10px;
     margin: 8%;
     color:white;
     height:10%;
     width:10%;
+    border:none;
 }
