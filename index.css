@@ -64,6 +64,7 @@ table {
     padding: 10px;
     margin:5% 10%;
     display:inline-block;
+    border:none;
     border-radius:10px;
     height:10%;
     width:10%;
@@ -73,6 +74,7 @@ table {
     font-family: 'Roboto Mono', monospace;
     background-color:rgb(47, 49, 49);
     padding: 10px;
+    border:none;
     background-color:#5ED3EB;
     display:inline-block;
     border-radius:10px;
@@ -86,6 +88,7 @@ table {
     background-color:#FFCD69;
     padding:10px;
     display:inline-block;
+    border:none;
     border-radius:10px;
     margin: 5% 10%;
     color:white;
@@ -208,13 +211,18 @@ footer #footer {
       height:5%;
   }
 
+  .button {
+      position:relative;
+      top:50%;
+      left:12%;      
+  }
 .button #button-4 {
     font-family: 'Roboto Mono', monospace;
     background-color:#FF764E;
     padding: 10px;
-    margin:8%;
     display:inline-block;
     border-radius:10px;
+    margin: 8%;
     height:10%;
     width:10%;
     color:white;
