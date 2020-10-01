@@ -57,11 +57,12 @@ table {
     box-sizing: border-box;
     border:1px solid black;
 }
-/*.header {
+/*.top {
     margin-left: 15%;
     padding: 3%;
     text-align: center;
-    margin: 2%;
+    width 100%;
+    
 }*/
 /*header {
     width:100%;
@@ -71,35 +72,78 @@ table {
     font-family: 'Roboto Mono', monospace;
     
 }*/
-.header {
-    display:block;
-    bottom:10%;
-}
-.header #img1 {
+
+/*
+.this-div #img1 {
     margin-left:5%;
     margin-top:5%;
     bottom:10%;
     border-radius:100%;
-    width: 20%;
+    width:20%;
     display:inline-block;
 }
 
-.header .this-div p{
-    margin-left:30%;
-    position:relative:
-    bottom:40%;
-    width:50%;
+.top .that-div {
+    width:225%;
+    margin-left:100%;
     display:inline-block;
 }
-.header .this-div h1 {
+
+.top .that-div h1 {
     position:relative;
-    margin-left: 30%;
+    bottom: 80%;
+    margin-bottom:5%;
     font-family: "Chelsea Market", cursive;
+    text-align:center;
     font-size: 4rem;
-    bottom:90%;
-    width:50%;
+    width:100%;
+    
+}
+
+.header .that-div p{
+    margin-bottom:5%;
+    position:relative;
+    bottom:50%;
+    width:100%;
+    text-align:center;
+
+}
+*/
+
+.top {
+    max-width:100%;
+}
+
+.this-div {
     display:inline-block;
-    margin-bottom:3%;
+    width:30%;
+    height:30%;
+}
+.this-div #img1 {
+    height:100%;
+    width:100%;
+    border-radius:100%;
+}
+
+.that-div {
+    position:relative;
+    bottom: 80%;
+    height:40%;
+    width:40%;
+    margin-left: 50%;
+
+}
+.that-div h1 {
+    font-size:4rem;
+    display:inline-block;
+    width: 100%;
+}
+
+.that-div p {
+    font-size:1rem;
+    display:inline-block;
+    margin-left 40%;
+    text-align:center;
 }
 
 
