@@ -109,43 +109,11 @@ table {
 
 }
 */
-
-.top {
-    max-width:100%;
-}
-
-.this-div {
-    display:inline-block;
-    width:30%;
-    height:30%;
-}
-.this-div #img1 {
-    height:100%;
+header {
+    display: block;
     width:100%;
-    border-radius:100%;
+    height: 20%;
 }
-
-.that-div {
-    position:relative;
-    bottom: 80%;
-    height:40%;
-    width:40%;
-    margin-left: 50%;
-
-}
-.that-div h1 {
-    font-size:4rem;
-    display:inline-block;
-    width: 100%;
-}
-
-.that-div p {
-    font-size:1rem;
-    display:inline-block;
-    margin-left 40%;
-    text-align:center;
-}
-
 
 #button-1 {
     font-family: 'Roboto Mono', monospace;
@@ -181,19 +149,48 @@ table {
     width:10%;
 }
 
+.top {
+    max-width:100%;
+    }
 
 
-/*.header h1 {
-    position:relative;
-    bottom: 150px;
-    font-family: 'Chelsea Market', cursive;
+.this-div {
+    display:inline-block;
+    width:20%;
+    height:20%;
+}
+
+.this-div #img1 {
+    height:100%;
+    width:100%;
+    border-radius:100%;
     display:inline-block;
 }
 
-.header p {
-    position:relative; 
+.that-div {
+    position:relative;
     display:inline-block;
-}*/
+    top: 1%;
+    height:60%;
+    width:70%;
+    margin-left: 25%;
+}
+
+.that-div h1 {
+    font-size:4rem;
+    display:inline-block;
+    width: 100%;
+    padding: 1%;
+    text-align:center;
+}
+
+.that-div p {
+    font-size:1rem;
+    display:inline-block;
+    width: 100%;
+    text-align:center;
+}
+
 
 body p{
     font-family: 'Roboto Mono', monospace;
@@ -231,14 +228,45 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-/*footer{
-    height:20%;
-}*/
 .footer {
     background-color: #F9E7DC;
     text-align:center;
-    height:20%;
+    height:5%;
     font-family: 'Roboto Mono', monospace;
+}
+.footer #button-4 {
+    font-family: 'Roboto Mono', monospace;
+    background-color:#FF764E;
+    padding: 10px;
+    margin:8%;
+    display:inline-block;
+    border-radius:10px;
+    height:10%;
+    width:10%;
+    color:white;
+}
+.footer #button-5 {
+    font-family: 'Roboto Mono', monospace;
+    background-color:#5ED3EB;
+    padding: 10px;
+    display:inline-block;
+    border-radius:10px;
+    margin: 8%;
+    color:white;
+    height:10%;
+    width:10%;
+}
+
+.footer #button-6 {
+    font-family: 'Roboto Mono', monospace;
+    background-color:#FFCD69;
+    padding:10px;
+    display:inline-block;
+    border-radius:10px;
+    margin: 8%;
+    color:white;
+    height:10%;
+    width:10%;
 }
 #footer{
     display:block;
